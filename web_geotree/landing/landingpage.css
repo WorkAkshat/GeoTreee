@@ -95,6 +95,18 @@ body {
     color: #ffffff;
 }
 
+.login-button>a,
+.signup-button >a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.login-button>a:active,
+.signup-button >a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
 .download-buttons {
     margin: 0;
     margin-left: 25px;
