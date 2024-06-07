@@ -1,0 +1,154 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+   
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: linear-gradient(to bottom, #ffffff, #ffffff);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.infoSection {
+    margin-bottom: 20px;
+}
+
+.card_1_2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.similarTree,
+.geoTagInfo,
+.ageInfo,
+.treeNameInfo {
+    width: 40%;
+    text-align: center;
+    
+}
+
+.header {
+    font-size: 26px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #004859;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.subHeader {
+    font-size: 18px;
+    font-weight: 600;
+    color: #004859;
+}
+
+.treeIcon {
+    font-size: 35px;
+    color: #25532E;
+}
+
+.locationInfo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.location {
+    font-size: 12px;
+    color: #333;
+    font-weight: 600;
+}
+
+.mapSection {
+    width: 100%;
+    height: 300px;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+.imageContainer {
+    width: 100%;
+    overflow: hidden;
+}
+.imageContainer {
+    width: 100%;
+    overflow: hidden;
+}
+
+.treeImage {
+    width: 100%;
+    height: 500px;
+}
+.treeImag {
+    display: flex;
+    justify-content: space-between;
+}
+.treeImag img {
+    width: 48%; /* Adjust the width to fit your design, e.g., 48% for a little gap between images */
+    height: auto;
+    border-radius: 10px; /* Optional: Add some rounding to the corners */
+}
+
+.treeDetails {
+    padding: 10px;
+}
+
+.infoContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.title,
+.label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #004859;
+}
+
+.value {
+    font-size: 16px;
+    color: #333;
+}
+
+.scientificName {
+    font-size: 14px;
+    font-style: italic;
+    color: #666;
+}
+
+.description {
+    display: none;
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+}
+
+#showMoreBtn {
+    background-color: #004859;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   
+}
+.btn{
+    display:flex;
+    justify-content:flex-end;
+    padding-top: 10px;
+}
+
+#showMoreBtn:hover {
+    background-color: #0595b5;
+}
